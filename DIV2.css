@@ -1,0 +1,29 @@
+.div0{
+    position: relative;
+    /*position relative para que la caja no sea estatica*/
+}
+
+img{
+    opacity: 0.2;
+    width: 50%;
+    height: auto;
+    /*damos transparencia y posicion a la imagen */
+}
+
+.div1{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    font-size: 18px;
+    /* ajustamos la position absolute del texto 
+    mediante bottom y left para dar un cierto margen*/
+} 
+.div2{
+    position: absolute;
+    top: 40%;
+    width: 45%;
+    text-align: center;
+    font-size: 18px;
+    /*para div2 cambiamos el metodo haciendo crecer la caja con porcentajes
+    para luego colocar el texto en el centro con el text-align */
+}   

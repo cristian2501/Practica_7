@@ -1,0 +1,36 @@
+.div0 { /*creamos clases para diferenciar los divs */
+    width: 160px;
+    height: 120px;
+    background-color: rgb(132, 184, 248);
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 1; /*el z-index la utilizamos para que el recuadro del div0 este delante del div2*/
+    position: absolute;
+    
+}
+/* div1 y div3 son los recuadros dentro del div0 y div2 con sus ajustes definidos*/
+.div1 { 
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.div2 {
+   
+    width: 160px;
+    height: 120px;
+    background-color: rgb(237, 70, 14);
+    margin-top: 140px;
+    margin-left: 100px; 
+    position: absolute;
+    /*utilizamos la position absolute para hacer que flote por la página y posicionarla con los margin*/
+}
+.div3 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(148, 241, 167);
+    margin-top: 60px;
+    margin-left: 100px;
+}
